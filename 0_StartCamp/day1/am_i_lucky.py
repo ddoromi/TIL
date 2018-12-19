@@ -19,6 +19,7 @@ print(real_numbers)
 # 1등 : my_numbers == real_numbers
 if my_numbers == real_numbers :
     print('1등입니다 예~~~~!!!!')
+
     
 # 2등 : real & my가 5개 같고, my의 나머지 하나가 bonus_number
 # 3등 : real & my가 5개 같다
