@@ -103,7 +103,13 @@ my_numbers = pick_lotto()
 print(am_i_lucky(my_numbers, real_numbers))
 ```
 
+### check_lotto
 
+```python
+from lotto_functions import am_i_lucky, pick_lotto, get_lotto
+
+print(am_i_lucky(pick_lotto(), get_lotto(837)))
+```
 
 * set()
   * 집합 선언 : name = set()
