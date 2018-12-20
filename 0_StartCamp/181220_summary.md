@@ -163,4 +163,34 @@ print(average([1, 7, 40]))
 
 * crtl+c : 실행 멈춤
 * convention : 관습으로 행해지는 것 
-* 리펙토링 : 기능이나 성능에 대한 변화는 없지만 좀 더 명확한 의미를 가지도록 바꾸는 것
+* 리펙토링 : 기능이나 성능에 대한 변화는 없지만 변수나 함수가 좀 더 명확한 의미를 가지도록 바꾸는 것
+
+### app.py
+
+```python
+from flask import Flask, jsonify
+from random import sample
+
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+    return 'Happy Hacking'
+    
+@app.route("/hi")
+def hi():
+    return "Hello SSAFY"
+    
+@app.route("/pick_lotto")
+def pick_lotto():
+    return jsonify(sample(range(1,46), 6))
+
+@app.route("/get_lotto")
+def get_lotto():
+    data = {
+        'numbers' : [1, 2, 3, 4, 5, 6],
+        'bonus' : 7
+    }
+    return jsonify(data)
+```
+
