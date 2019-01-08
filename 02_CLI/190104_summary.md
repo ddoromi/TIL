@@ -49,6 +49,9 @@
 * mkdir -p ssafy/ss3/students  : 여러 단계의 폴더 만들기
 * rmdir : 디렉토리 지우기   rm -r : 연결된 디렉토리 다 지우기  rm -rf : 파일까지 다 지우기
 * cd .. : 한 단계 위 디렉토리로 이동     cd . : 지금 위치(git add . : 지금 있는 위치 add)    cd  - : 한 단계 뒤로 가기
-* 
 
-git commi -m ''
+#### 명령어 설정
+
+* cd -> ls -a -> less .bash_history -> 홈에서 touch .bashrc (run command) -> vim .bashrc
+*  -> alias 'jn'='jupyter notebook' /// :w (저장) :q(나가기)
+* echo 'alias "jn"="jupyter notebook"' >> .bashrc (덮어쓰기)
