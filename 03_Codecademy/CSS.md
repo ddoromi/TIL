@@ -21,6 +21,8 @@
 
 * id : class를 무시하고 적용. ex) in html, <h1 id="article">,  in css  #article { }
 
+* 특정 element의 class 설정 : element.class { }
+
 ### stlye 설정
 
 * 색 => color: 색;
