@@ -1,4 +1,4 @@
-# Summary
+# 19. 01. 14 Summary
 
 ## HTML
 
@@ -35,5 +35,21 @@
 
 
 
-#### 
+## CSS
 
+### 1. Naming
+
+* 명시적이고 구체적으로 짓기
+* 어떻게 보여질 지로 정하지 않기
+* id는 사용하지 않고, class로 사용하자 // id는 javascript에서 사용
+
+### 2. 우선 순위
+
+* !important : 첫 번째 우선 순위, 쓰지 않음.
+* inline 
+* media type
+* 사용자 정의 (only mine)
+* id
+* class : class가 중복될 경우 아래 정의된 class가 우선 순위를 가짐.
+* class 상속 : 자식 => 부모
+* tag를 selector로 썼을 때
