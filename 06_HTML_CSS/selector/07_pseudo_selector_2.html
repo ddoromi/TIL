@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            margin: 0;
+        }
+        div {
+            float: left;
+            width: 32%;
+            height: 200px;
+            background-color: coral;
+
+            color: white;
+            font-size: 3em;
+            line-height: 200px;
+            text-align: center;
+        }
+        /* margin-left는 왼쪽을 띄우기 위해 자신이 오른쪽으로 감. */
+        div:not(:nth-of-type(3n+1)) { 
+            margin-left: 2%
+        }
+        div:not(:nth-of-type(n+4)) { 
+            margin-bottom: 2%
+        }
+    </style>
+</head>
+<body>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+</body>
+</html>

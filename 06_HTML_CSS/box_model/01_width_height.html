@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        div.control {
+            /* content의 양이 더 많을 수록 세로로 넘침, 
+            content의 최종적인 크기는 margin + border + padding + content  */
+            width: 300px;
+            height: 100px;
+            background-color: cornsilk;
+            border: 5px solid navy;
+            overflow: hidden; /* 밖으로 빠져나간 내용은 숨김 */
+        }
+        div.box1 {
+            background-color: orange;
+            width: 100px;
+            height: 50%;
+            border: 5px solid red;
+            margin-top: 20px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            margin-left: 100px;
+            
+            /* 순서대로 시계방향임 */
+            padding: 10px 20px 30px 40px 
+        }
+        div.center {
+            border: 5px solid navy;
+            background-color: crimson;
+            max-width: 600px;  
+            margin: auto; /* 가로 기준 가운데 정열, max-width를 지정해줘야 함 */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="control">
+        "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
+    </div>
+    <div class="box1">
+        This is div
+    </div>
+    <div class="center">
+        "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
+    </div>
+</body>
+</html>
