@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            margin: 0;
+        }
+        .parent {
+            width: 200px;
+            height: 200px;
+            background: yellowgreen;
+            border: 1px solid black;
+            margin: 50px 0 0 300px;
+            position: relative;
+        }
+        .absolute-box {
+            position: absolute; /* 부모나 조상이 static이면 absolute함  */
+            height: 200px;
+            width: 200px;
+            top: 50px;
+            left: 50px;
+            background: deeppink;
+            color: aqua;
+            font-weight: bold;
+            text-align: center;
+            line-height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="absolute-box">
+            ABSOLUTE box in parent
+        </div>
+    </div>
+    <div class="absolute-box">
+        Asolute box no parant
+    </div>
+</body>
+</html>
