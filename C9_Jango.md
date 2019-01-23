@@ -27,6 +27,7 @@
   | .headers on                      | 헤더(컬럼 이름) 같이 출력 |
   | .read <file.sql>                 |  해당 sql 스크립트 실행   |
   | .import <file_name> <table_name> |     table에 file 추가     |
+  | .nullvalue 'NULL'                |                           |
 
 * TABLE
 
@@ -42,6 +43,15 @@
     ALTER TABLE <table_name>
     RENAME to <new_table_name>
     ```
+
+  * column 추가
+
+    ```sqlite
+    ALTER TABLE <table_name>
+    ADD COLUMN <new_col_name> <type> (DEFAULT <value>);
+    ```
+
+    
 
 * Data 조작 관련
 
@@ -76,7 +86,7 @@
 
     ```sqlite
     UPDATE <table_name>
-    SET <col_1><val_1>, <col_2><val_2>
+    SET <col_1>=<val_1>, <col_2>=<val_2>
     WHERE [condition] -- 보통 primary key (id)로 선택
     ```
 
@@ -131,7 +141,7 @@
   |      | %2%     | 2가 들어가는 값                |
   | _    | _2      | 두번째 글자가 2인 값           |
   |      | 1____   | 1로 시작하며 4자리             |
-  |      | _2%     | ㄷㅜ번째에 2가 오고            |
+  |      | _2%     | 두번째에 2가 오고              |
   |      | `2_%_%` | 2로 시작하는데 최소 3자리인 값 |
 
   
