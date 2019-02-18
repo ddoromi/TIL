@@ -17,7 +17,7 @@ class Circle(Point):
         return self.x, self.y
 
     def print(self):
-        print(f'Cirlce: {self.x, self.y}, r: {self.r}')
+        print(f'Circle: {self.x, self.y}, r: {self.r}')
 
 p1 = Point(0, 0)
 c1 = Circle(p1, 3)
