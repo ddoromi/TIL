@@ -1,18 +1,37 @@
 import sys
-sys.stdin = open('flatten_input.txt')
+sys.stdin = open('input.txt')
 
-dump = int(input())
-arr = list(map(int, input().split()))
-cnt = [0] * 101
-MinIdx, MaxIdx = 0, 100
+for N in range(10):
+    T = int(input())
+    data = list(map(int, input().split()))
+    max_height, min_height, max_index, min_index = 1, 100, 0, 0
 
-for i in range(dump):
-    while cnt[MinIdx] == 0:
-        MinIdx += 1
-    while cnt[MaxIdx] == 0:
-        MaxIdx -= 1
-    
-    cnt[MinIdx] -= 1
-    cnt[MinIdx+1] += 1
-    cnt[MaxIdx] -= 1
-    cnt[MaxIdx-1] += 1
+    for t in range(T):
+        for i in range(len(data)):    
+            if max_height <= data[i]:
+                max_height = data[i]
+                max_index = i
+                max_count = True
+            
+            if min_height >= data[i]:
+                min_height = data[i]
+                min_index = i
+                min_count = True
+        
+        data[max_index] -= 1
+        data[min_index] += 1
+        max_height -= 1
+        min_height += 1
+
+        if not max_count:
+            for i in range(len(data)):    
+                if max_height <= data[i]:
+                    max_height = data[i]
+                
+                if min_height >= data[i]:
+                    min_height = data[i]
+                
+        if data[max_index] - data[min_index] <= 1:
+            break
+        
+    print (f'#{N+1} {data[max_index]-data[min_index]}')

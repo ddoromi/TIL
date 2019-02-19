@@ -22,3 +22,8 @@ for i in range(len(arr)):
                 result += result + abs(arr[i][j] - arr[i][j+1]) + abs(arr[i-1][j])
             else:
                 result += result + abs(arr[i][j]-arr[i-1][j]) + abs(arr[i][j]-arr[i+1][j]) + abs(arr[i][j]-arr[i-1][j])
+
+
+
+
+
