@@ -9,6 +9,7 @@ for t in range(T):
     sum_data = data[1]
     count = 0
     
+    # 부분집합 만들기
     for i in range(1<<len(arr)):
         sum_arr = 0
         subset =[]

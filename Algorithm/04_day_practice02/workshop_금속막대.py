@@ -3,11 +3,12 @@ sys.stdin = open('input.txt')
 
 T = int(input())
 
+# Test Case
 for t in range(T):
-    N = int(input())
+    N = int(input())   # 색칠할 영역의 개수
     data = list(map(int, input().split()))
-    array = []
-
+    array = []   # arr = [[0 for _ in range(10)] for _ in range(10)]
+    
     for i in range(0, len(data), 2):
         array += [[data[i], data[i+1]]]
 
@@ -29,5 +30,3 @@ for t in range(T):
     for i in range(len(array)):
         print(array[i][0], array[i][1], end=' ')
     print()
-
-    

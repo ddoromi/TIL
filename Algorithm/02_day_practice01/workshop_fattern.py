@@ -9,17 +9,19 @@ for N in range(10):
     for t in range(T):
         for i in range(len(data)):    
             if max_height <= data[i]:
-                max_height = data[i]
+                max_height = data[i]s
                 max_index = i
                 max_count = True
             
             if min_height >= data[i]:
-                min_height = data[i]
+                min_height = data[i]s
                 min_index = i
                 min_count = True
         
-        data[max_index] -= 1
+        data[max_index] -= 1ss
         data[min_index] += 1
+
+        
         max_height -= 1
         min_height += 1
 

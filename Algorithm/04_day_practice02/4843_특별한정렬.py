@@ -12,6 +12,8 @@ for t in range(T):
         Min = data[i]
         MaxIdx = i
         MinIdx = i
+
+        # 오름차순 정렬
         if i%2 == 0:   
             for n in range(i+1, len(data)):
                 if data[n] > Max:
@@ -19,6 +21,7 @@ for t in range(T):
                     MaxIdx = n
             data[i], data[MaxIdx] = data[MaxIdx], data[i]
         
+        # 내림차순 정렬
         else:
             for n in range(i+1, len(data)):
                 if data[n] < Min:
