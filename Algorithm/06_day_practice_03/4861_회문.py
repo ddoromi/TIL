@@ -6,6 +6,7 @@ T = int(input())
 for t in range(T):
     data = []
     N, M = map(int, input().split())
+    j = 0
     result = False
     
     for n in range(N):
@@ -26,9 +27,11 @@ for t in range(T):
                     break
             else:
                 m = 1
+                n -= count
                 count = 0
             n = n + 1
-
+    
+    result = False
     if result == False:
         for j in range(N):
             n, m, count = 0, 1, 0 
@@ -44,5 +47,6 @@ for t in range(T):
                         break
                 else:
                     m = 1
+                    n -= count
                     count =0
                 n = n + 1
