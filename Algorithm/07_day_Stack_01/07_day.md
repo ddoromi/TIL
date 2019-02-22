@@ -120,7 +120,56 @@ def fibo(n):
 
 #### 피보나치 수 DP 적용
 
+```python
+memo = [0] * 101
+memo[0] = 0
+memo = [1]
+
+# 이미 memo는 값으로 차있다고 가정하고 값을 가져옴
+for i in range(2, 41):
+    memo[i] = memo[i-1] + memo[i-2]
+    
+print(memo[40])
+```
+
 
 
 ## 5. DFS
+
+#### 그래프
+
+* 실 세계 문제를 그래프로 추상화해서 해결하는 방법을 학습
+
+##### 1. 무향 그래프
+
+* 방향성이 없음
+* 객체들은 동등한 관계를 가짐
+
+##### 2. 유향 그래프
+
+* 방향성이 있음
+* 화살표 방향으로만 이동이 가능함
+
+#### 연습문제3
+
+```python
+import sys
+sys.stdin = open('DFS_input.txt')
+V, E = mpa(int, input.split())  # 정점수, 간선수
+G = [[for _ in range(V+1)]]
+
+# 무향 그래프
+for i in range(E):
+    u ,v = map(int, input().split())
+    G[u].append(v)
+    G[v].append(u)
+
+for i in range(1, V+1):
+    print(i, G[i])
+    
+```
+
+
+
+
 
