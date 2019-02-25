@@ -153,6 +153,7 @@ print(memo[40])
 #### 연습문제3
 
 ```python
+# Stack 사용
 import sys
 sys.stdin = open('DFS_input.txt')
 V, E = mpa(int, input.split())  # 정점수, 간선수
@@ -168,6 +169,32 @@ for i in range(1, V+1):
     print(i, G[i])
     
 ```
+
+```python
+# 재귀 활용
+import sys
+sys.stdin = open('input.txt')
+
+def DFS(v): # v: 현재 방문하는 정점
+    visit[v] = True  # 방문한 정점은 표시해둠
+    print(v, end=' ')
+    for w in G[v]:   # 방문하지 않는 정점을 찾아서 돌아감
+        if not visit[w]:
+            DFS(w)
+    
+V, E = map(int, input().split())
+G = [[] for _ in range(V + 1)]
+visit = [False for _ in range(V + 1)]
+
+for i in range(E):
+    u, v = map(int, input().split())
+    G[u].append(v)
+    G[v].append(u)
+
+DFS(1)
+```
+
+
 
 
 
