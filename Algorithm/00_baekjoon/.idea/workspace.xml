@@ -1,79 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13c98a77-5e4d-4f48-b711-d71bbd44f9eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1159_농구게임.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2851_슈퍼마리오.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2953_나는요리사다.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08_Stack_02/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08_Stack_02/workshop_magnetic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_day_Array01/01-1_gravity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_day_Array01/01-2_baby-gin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_day_Array01/01-3_bubble.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_day_Array01/01-4_counting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_day_Array01/01_day.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_day_Array01/01_workshop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_day_Array01/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_day_Array01/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_day_practice01/01_workshop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_day_practice01/01_구간합.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_day_practice01/01_숫자카드.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_day_practice01/4828.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_day_practice01/4828_minmax.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_day_practice01/4831.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_day_practice01/4831_전기버스.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_day_practice01/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_day_practice01/workshop_fattern.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_day_Array02/03_day.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_day_Array02/example.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_day_Array02/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_day_Array02/practice_01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_day_Array02/workshop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_day_practice02/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_day_practice02/4836.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_day_practice02/4836_색칠하기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_day_practice02/4837.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_day_practice02/4837_부분집합.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_day_practice02/4839.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_day_practice02/4839_이진탐색.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_day_practice02/4843.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_day_practice02/4843_특별한정렬.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_day_practice02/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_day_practice02/practice_03.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_day_practice02/solution.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_day_practice02/workshop_금속막대.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_day_String/05_ day.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_day_String/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_day_String/workshop_GNS.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/.idea/06_day_practice_03.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/4861.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/4861_회문.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/4864.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/4864_문자열비교.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/4865.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/4865_글자수.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/solution.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/workshop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_day_practice_03/workshop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_day_practice_04/4588.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_day_practice_04/4866_괄호.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_day_practice_04/4869.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_day_practice_04/4869_종이붙이기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_day_practice_04/4871.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_day_practice_04/4871_그래프경로.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_day_practice_04/4873.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_day_practice_04/4873_반복문자.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_day_practice_04/practice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_day_practice_04/workshop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_day_practice_04/workshop_작업순서.py" beforeDir="false" />
-    </list>
+    <list default="true" id="13c98a77-5e4d-4f48-b711-d71bbd44f9eb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/2953_나는요리사다.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -129,6 +57,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,7 +69,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,16 +130,17 @@
       <updated>1551141367621</updated>
       <workItem from="1551141374878" duration="9997000" />
       <workItem from="1551169956827" duration="1350000" />
+      <workItem from="1551225286516" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11347000" />
+    <option name="totallyTimeSpent" value="11371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2701525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27559912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -302,7 +231,7 @@
     <entry file="file://$PROJECT_DIR$/2953_나는요리사다.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
