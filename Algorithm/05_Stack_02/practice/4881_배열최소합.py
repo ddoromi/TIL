@@ -1,32 +1,36 @@
 import sys
 sys.stdin = open('4881.txt')
 
+def perm(k, n, j):
+    global Sum, Min
+    if k == n:
+        Sum = 0
+        for i in range(n):
+            Sum += order[i]
+        if Min > Sum:
+            Min = Sum
+        return
+
+    for i in range(n):
+        if used[i]: continue
+
+        used[i] = True
+        order.append(nums[j][i])
+
+        perm(k + 1, n, j + 1)
+        used[i] = False
+        order.pop()
+
 T = int(input())
 for test_case in range(T):
     N = int(input())
     nums = []
-    Sum = 0
-    visit = []
-    arr = []
-    Sum = 0
-    order = [0] * N
 
     for n in range(N):
         nums.append(list(map(int, input().split())))
-
-    prnit(min_sum(N,0))
-
-
-
-def min_sum(N, j):
-    global Sum
-    if j == N:
-        return
-    visit = [False] * N
-
-    for i in range(N):
-        if visit[i]:
-            continue
-        order[j] = nums[j][i]
-        visit[i] = True
-        min_sum(N, j+1)
+    
+    order = []
+    Sum, Min = 0, 500
+    used = [False] * len(nums)
+    perm(0, N, 0)
+    print(f'#{test_case+1} {Min}')
