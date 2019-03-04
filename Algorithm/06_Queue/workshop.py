@@ -16,4 +16,4 @@ for test_case in range(T):
     else:
         result = a_fee
     
-    print(f'#{test_case + 1} {result}')
+    print('#{} {}'.format(test_case + 1, result))

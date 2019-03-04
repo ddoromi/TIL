@@ -22,3 +22,5 @@ for test_case in range(T):
     player = list(map(int, input().split()))
 
     print(f'#{test_case + 1} {getmax(0, len(player) - 1)[1] + 1}')
+
+
