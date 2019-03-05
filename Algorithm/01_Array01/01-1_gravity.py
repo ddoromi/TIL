@@ -14,5 +14,5 @@ for i in range(len(arr)):
     height -= cnt
     max_h = max(height, max_h)
 
-print (max_h)
+print(max_h)
 print(len(arr))
