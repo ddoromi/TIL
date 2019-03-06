@@ -34,7 +34,7 @@ for test_case in range(10):
             L[int(data[0])] = int(data[2])
             R[int(data[0])] = 0
             P[int(data[2])] = int(data[0])
-
+    print(array)
     inorder(1)
     print('#{} {}'.format(test_case + 1, result))
 

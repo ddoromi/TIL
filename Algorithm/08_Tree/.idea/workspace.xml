@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72da8afa-ce02-4edb-90d4-138b2114808f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../00_baekjoon/2789_블랙잭.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../00_baekjoon/2840_행운의바퀴.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_List/.idea/07_List.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_List/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_List/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_List/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_List/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workshop_중위순회.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_practice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_practice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_practice/5174_subtree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_practice/5176_이진탐색.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../00_baekjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../00_baekjoon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_Queue/practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06_Queue/practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop_중위순회.py" beforeDir="false" afterPath="$PROJECT_DIR$/workshop_중위순회.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam/.idea/exam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../exam/.idea/exam.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exam/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam/01_List/4835.py" beforeDir="false" afterPath="$PROJECT_DIR$/../exam/01_List/4835.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,9 +25,10 @@
     <session id="783808580">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -45,18 +45,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2223" />
+          <entry key="py" value="2241" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2223" />
+          <entry key="Python" value="2241" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workshop.txt">
           <provider selected="true" editor-type-id="text-editor" />
@@ -65,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/workshop_중위순회.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="612">
+              <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -94,7 +94,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="853" />
+    <option name="x" value="-48" />
+    <option name="y" value="72" />
     <option name="width" value="1074" />
     <option name="height" value="1047" />
   </component>
@@ -121,7 +122,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../00_baekjoon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -136,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.workshop_중위순회">
     <configuration name="practice_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="08_Tree" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,8 +159,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="workshop_중위순회" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="08_Tree" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workshop_중위순회.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.practice_1" />
+      <item itemvalue="Python.workshop_중위순회" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.workshop_중위순회" />
         <item itemvalue="Python.practice_1" />
       </list>
     </recent_temporary>
@@ -187,18 +214,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="853" y="0" width="1074" height="1047" extended-state="0" />
+    <frame x="-48" y="72" width="1074" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18111753" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18111753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="1" weight="0.3297414" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.3297062" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3297062" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3297062" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.3297414" />
@@ -237,10 +265,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-136">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <marker date="1551766646217" expanded="true" signature="270:271" ph="..." />
-            <marker date="1551766646217" expanded="true" signature="483:484" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -256,8 +280,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/workshop_중위순회.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="612">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
         </state>
       </provider>
     </entry>
