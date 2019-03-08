@@ -11,8 +11,9 @@ for i in range(E):
 for i in range(1, V+1):
     print(i, G[i])
 
+
 def DFS(start):
-    visit = [False for _in range(V+1)]
+    visit = [False for _ in range(V+1)]
     S = []
     v = start
     visit[v] = True

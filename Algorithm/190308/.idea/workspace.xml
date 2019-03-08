@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63c9eeeb-e533-407f-a42d-5690c40e5d82" name="Default Changelist" comment="" />
+    <list default="true" id="87c394b8-eae0-4f5e-938b-a7d7bbf00010" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1974_sudoku.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2805_crops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6109_2048game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6190_정곤.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,78 +16,59 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="848990800">
+    <session id="1689998575">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
-          <entry key="txt" value="2" />
+          <entry key="py" value="6" />
+          <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="3" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="19" />
-          <entry key="py" value="2692" />
-          <entry key="txt" value="168" />
+          <entry key="Python Console" value="46" />
+          <entry key="dummy" value="12" />
+          <entry key="py" value="3965" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="187" />
-          <entry key="Python" value="2692" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="4011" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/서울3반권성령1번.py">
+        <entry file="file://$PROJECT_DIR$/6109_2048game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="56" lean-forward="true" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+            <state relative-caret-position="-1231">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <marker date="1552031755346" expanded="true" signature="39:41" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/서울3반권성령2번.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/6109.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -92,44 +80,51 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/01_sdoku.py" />
         <option value="$PROJECT_DIR$/01.txt" />
-        <option value="$PROJECT_DIR$/01_minsum.py" />
-        <option value="$PROJECT_DIR$/02.txt" />
-        <option value="$PROJECT_DIR$/02_island.py" />
-        <option value="$PROJECT_DIR$/서울3반권성령2번.py" />
-        <option value="$PROJECT_DIR$/서울3반권성령1번.py" />
+        <option value="$PROJECT_DIR$/1974_sudoku.py" />
+        <option value="$PROJECT_DIR$/2805_crops.py" />
+        <option value="$PROJECT_DIR$/6109_2084game.py" />
+        <option value="$PROJECT_DIR$/6190.txt" />
+        <option value="$PROJECT_DIR$/6190_정곤.py" />
+        <option value="$PROJECT_DIR$/6109_2048game.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="877" />
+    <option name="width" value="1050" />
     <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="exam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
+              <item name="190308" type="b2602c69:ProjectViewProjectNode" />
+              <item name="190308" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/SSAFY/ALGORITHM/algorithm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -144,9 +139,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.서울3반권성령1번">
-    <configuration name="01_minsum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="exam" />
+  <component name="RunManager" selected="Python.6109_2048game">
+    <configuration name="01_sdoku" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="190308" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -157,7 +152,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\student\Desktop\exam\서울3반권성령1번.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\student\SSAFY\ALGORITHM\algorithm\190308\1974_sudoku.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,8 +161,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_island" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="exam" />
+    <configuration name="2805_crops" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="190308" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -178,7 +173,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\student\Desktop\exam\서울3반권성령2번.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2805_crops.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,8 +182,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="서울3반권성령1번" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="exam" />
+    <configuration name="6109_2048game" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="190308" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -199,7 +194,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/서울3반권성령1번.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6109_2048game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,8 +203,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="서울3반권성령2번" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="exam" />
+    <configuration name="6190_정곤" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="190308" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -220,7 +215,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/서울3반권성령2번.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6190_정곤.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,17 +225,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.01_minsum" />
-      <item itemvalue="Python.02_island" />
-      <item itemvalue="Python.서울3반권성령2번" />
-      <item itemvalue="Python.서울3반권성령1번" />
+      <item itemvalue="Python.01_sdoku" />
+      <item itemvalue="Python.2805_crops" />
+      <item itemvalue="Python.6109_2048game" />
+      <item itemvalue="Python.6190_정곤" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.서울3반권성령1번" />
-        <item itemvalue="Python.서울3반권성령2번" />
-        <item itemvalue="Python.02_island" />
-        <item itemvalue="Python.01_minsum" />
+        <item itemvalue="Python.6109_2048game" />
+        <item itemvalue="Python.6190_정곤" />
+        <item itemvalue="Python.2805_crops" />
+        <item itemvalue="Python.01_sdoku" />
       </list>
     </recent_temporary>
   </component>
@@ -249,73 +244,66 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="63c9eeeb-e533-407f-a42d-5690c40e5d82" name="Default Changelist" comment="" />
-      <created>1552003305243</created>
+      <changelist id="87c394b8-eae0-4f5e-938b-a7d7bbf00010" name="Default Changelist" comment="" />
+      <created>1552018163622</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552003305243</updated>
+      <updated>1552018163622</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="877" y="0" width="1050" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24946696" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18441814" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Debug" order="3" weight="0.1663158" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32930845" />
+      <window_info anchor="bottom" id="Python Console" order="1" weight="0.3297062" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3297062" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.1882481" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3297062" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3264418" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Debug" order="3" weight="0.85574836" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2805_crops.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
+        <watch expression="nums" language="Python" />
+        <watch expression="compare" language="Python" />
+        <watch expression="plus" language="Python" />
+        <watch expression="num" language="Python" />
+        <watch expression="Max" language="Python" />
+        <watch expression="nums[i]" language="Python" />
+        <watch expression="nums[j]" language="Python" />
         <watch expression="i" language="Python" />
         <watch expression="j" language="Python" />
-        <watch expression="k" language="Python" />
-        <watch expression="right_sum" language="Python" />
-        <watch expression="left_sum" language="Python" />
-        <watch expression="Min" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
-      <expression>
-        <expression-string>Min</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>left_sum</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>right_sum</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>k</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
       <expression>
         <expression-string>j</expression-string>
         <language-id>Python</language-id>
@@ -326,41 +314,95 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
+      <expression>
+        <expression-string>nums[j]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nums[i]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Max</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>num</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>plus</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>compare</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nums</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
+    <entry file="file://$PROJECT_DIR$/1974.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="291" selection-start-line="291" selection-end-line="291" />
+        <state relative-caret-position="492">
+          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.txt">
+    <entry file="file://$PROJECT_DIR$/1974_sudoku.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/서울3반권성령2번.py">
+    <entry file="file://$PROJECT_DIR$/2805_crops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="20" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/서울3반권성령1번.py">
+    <entry file="file://$PROJECT_DIR$/2805.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6190_out.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6190_정곤.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="56" lean-forward="true" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+        <state relative-caret-position="459">
+          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6190.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6109.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6109_2048game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1231">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1552031755346" expanded="true" signature="39:41" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
