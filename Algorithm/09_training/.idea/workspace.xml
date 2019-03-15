@@ -4,23 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/1859_백만장자.py" line="6" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e842115e-d0b4-4f22-882b-98ca836c03ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1859_백만장자.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1970_거스름돈.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2005_파스칼.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5162_딜레마.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ2458.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ2458_키순서.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ2606.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ2606_바이러스.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ2636.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ2636_치즈.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ2667.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ2667_단지번호.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_List/practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07_List/practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_Tree/08_practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08_Tree/08_practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ad_study/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e842115e-d0b4-4f22-882b-98ca836c03ff" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +15,10 @@
     <session id="704848699">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -66,7 +51,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BJ2636_치즈.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,20 +116,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="09_training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="09_training" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -299,10 +271,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="734" y="0" width="1193" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.20668426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="1" weight="0.3297062" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.3297062" />
@@ -390,9 +363,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1859_o.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1859_o.txt" />
     <entry file="file://$PROJECT_DIR$/1859_백만장자.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -452,13 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BJ2458_키순서.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BJ2458.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -491,9 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <marker date="1552457096590" expanded="true" signature="819:822" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -511,17 +472,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BJ2636.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1818">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BJ2636_치즈.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ2636.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1818">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
