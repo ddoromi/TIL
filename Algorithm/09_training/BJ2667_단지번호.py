@@ -25,7 +25,6 @@ for i in range(N):
     for j in range(N):
         data[j] = int(data[j])
     MAP.append([0] + data + [0])
-
 MAP.append([0 for _ in range(N + 2)])
 
 for i in range(1, N + 1):

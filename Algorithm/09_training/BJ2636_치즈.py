@@ -1,9 +1,9 @@
 import sys, copy
 sys.stdin = open('BJ2636.txt')
 
+
 def hole(x, y):
     global stack_0
-
     XY = [[x - 1, y], [x + 1, y], [x, y - 1], [x, y + 1]]
     if (x <= 2 or y <= 2) or (x >= N - 2 or y >= M - 2):
         stack_0 = []
@@ -19,6 +19,7 @@ def hole(x, y):
         else:
             continue
     return
+
 
 def search(x, y):
     XY = [[x - 1, y], [x + 1, y], [x, y - 1], [x, y + 1]]
@@ -60,7 +61,6 @@ while True:
     count += 1
     for xy in stack_1:
         cheese[xy[0]][xy[1]] = 0
-
 
 print(count)
 print(count_1)
