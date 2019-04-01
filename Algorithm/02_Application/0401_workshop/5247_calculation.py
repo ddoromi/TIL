@@ -11,13 +11,12 @@ for test_case in range(1, T + 1):
     while len(cal):
         num = cal.popleft()
         cnt = count.popleft()
-        visit[num] = True
         if num == M:
             print('#{} {}'.format(test_case, cnt))
             break
         for xy in [num + 1, num - 1, num * 2, num - 10]:
             if 0 < xy < M + 2 and not visit[xy]:
+                visit[xy] = True
                 cal.append(xy)
                 count.append(cnt + 1)
-    print(cal)
-    print(count)
+
