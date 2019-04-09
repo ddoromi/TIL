@@ -1,0 +1,12 @@
+{% extends 'board/base.html' %}
+
+{% block body %}
+    <h1>{{ posting.title }}</h1>
+    <p>
+        {{ posting.content }}
+    </p>
+    <hr>
+    <a href="{% url 'board:posting_list' %}"><button>List</button></a>
+    <a href="{% url 'board:posting_list' %}"><button>Edit</button></a>
+    <a href="{% url 'board:posting_list' %}"><button>Delete</button></a>
+{% endblock %}

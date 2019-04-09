@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe4d4ca-55a4-4993-b362-41ee2284adbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/02_Application/190405/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02_Application/190405/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/07_Django/.idea/07_Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming/07_Django/.idea/07_Django.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/07_Django/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming/07_Django/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/07_Django/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming/07_Django/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/07_Django/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming/07_Django/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/07_Django/review_prj/board/templates/board/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming/07_Django/review_prj/board/templates/board/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/07_Django/review_prj/board/templates/board/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming/07_Django/review_prj/board/templates/board/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/07_Django/review_prj/board/templates/board/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming/07_Django/review_prj/board/templates/board/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/07_Django/review_prj/board/templates/board/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming/07_Django/review_prj/board/templates/board/new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/07_Django/review_prj/board/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming/07_Django/review_prj/board/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/07_Django/review_prj/board/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming/07_Django/review_prj/board/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/07_Django/review_prj/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming/07_Django/review_prj/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/07_Django/review_prj/review_prj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming/07_Django/review_prj/review_prj/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Baekjoon/step1_print.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/.ipynb_checkpoints/03_Homework-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/.ipynb_checkpoints/04_Homework-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/.ipynb_checkpoints/05_Homework-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/.ipynb_checkpoints/06_Homework-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/.ipynb_checkpoints/07_Homework-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/.ipynb_checkpoints/08_Homework-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/.ipynb_checkpoints/09_Homework-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/.ipynb_checkpoints/10_Homework-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/03_Homework.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/04_Homework.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/05_Homework.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/06_Homework.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/07_Homework.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/08_Homework.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/09_Homework.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/10_Homework.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/11_Homework.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/12_Homework.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/14_Homework.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/15_HomeWork.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/16_Homework.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Homework/17_Homework.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/.ipynb_checkpoints/04_Workshop-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/.ipynb_checkpoints/05_Workshop-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/.ipynb_checkpoints/06_Workshop-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/.ipynb_checkpoints/07_Workshop-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/.ipynb_checkpoints/08_Workshop-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/.ipynb_checkpoints/09_Workshop-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/.ipynb_checkpoints/10_Workshop-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/04_Workshop.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/05_Workshop.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/06_Workshop.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/07_Workshop.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/08_Workshop.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/09_Workshop.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/10_Workshop.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/11_Workshop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/12_Workshop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/14_Workshop.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Programming/Homework&amp;Workshop/Workshop/15&amp;16_Workshop.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Application/05_graph/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02_Application/05_graph/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,30 +11,67 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_Application/190404/4008_make_num.py">
+        <entry file="file://$PROJECT_DIR$/02_Application/05_graph/3347_olympics.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_Application/190403/BJ2437_scale.py">
+        <entry file="file://$PROJECT_DIR$/02_Application/05_graph/5247_calculation.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_Application/190403/4408_comeback.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_Application/190403/3752_score.py">
+        <entry file="file://$PROJECT_DIR$/02_Application/05_graph/5248_group.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02_Application/190403/1868_poping.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1404">
+              <caret line="78" column="28" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Application/05_graph/5521_birthday.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Application/05_graph/KRUSKAL.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Application/190327/1486_shelf.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Application/190327/3074_entry.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Application/190327/5189_cart.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Application/190402/1244_prize_money.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-270" />
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -114,7 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,40 +108,50 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="01_Array01" type="462c0819:PsiDirectoryNode" />
+              <item name="02_Application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="01_Array01" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="02_Application" type="462c0819:PsiDirectoryNode" />
+              <item name="05_backtraking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="04_Stack_01" type="462c0819:PsiDirectoryNode" />
+              <item name="02_Application" type="462c0819:PsiDirectoryNode" />
+              <item name="05_backtraking" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="04_Stack_01" type="462c0819:PsiDirectoryNode" />
-              <item name="08_day_practice_04" type="462c0819:PsiDirectoryNode" />
+              <item name="02_Application" type="462c0819:PsiDirectoryNode" />
+              <item name="05_graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="05_Stack_02" type="462c0819:PsiDirectoryNode" />
+              <item name="02_Application" type="462c0819:PsiDirectoryNode" />
+              <item name="190327" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="05_Stack_02" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="02_Application" type="462c0819:PsiDirectoryNode" />
+              <item name="190402" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="02_Application" type="462c0819:PsiDirectoryNode" />
+              <item name="190403" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,16 +187,17 @@
       <workItem from="1551783108156" duration="956000" />
       <workItem from="1551786379448" duration="14000" />
       <workItem from="1554712289110" duration="39000" />
+      <workItem from="1554712527302" duration="985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1009000" />
+    <option name="totallyTimeSpent" value="1994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5138593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.51382977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -244,20 +238,101 @@
     <entry file="file://$PROJECT_DIR$/04_Stack_01/08_day_practice_04/4869_종이붙이기.py" />
     <entry file="file://$PROJECT_DIR$/04_Stack_01/08_day_practice_04/4871_그래프경로.py" />
     <entry file="file://$PROJECT_DIR$/05_Stack_02/practice/4875_미로.py" />
-    <entry file="file://$PROJECT_DIR$/02_Application/190404/4008_make_num.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_Application/190403/BJ2437_scale.py">
+    <entry file="file://$PROJECT_DIR$/02_Application/190403/3752_score.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/02_Application/190403/4408_comeback.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_Application/190403/3752_score.py">
+    <entry file="file://$PROJECT_DIR$/02_Application/190403/BJ2437_scale.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_Application/190403/1868_poping.py">
+    <entry file="file://$PROJECT_DIR$/02_Application/190404/4008_make_num.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/190403/1861_square.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/190402/4111_CCTV.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/190402/1952_pool.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_backtraking/workshop/BJ1463_DFS.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_backtraking/workshop/BJ2167_sum.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_backtraking/workshop/BJ2193_pinary.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_backtraking/workshop/BJ2294_coin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_backtraking/workshop/BJ2304_polygon.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_backtraking/workshop/BJ10815.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_backtraking/workshop/BJ10816.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_backtraking/5208_electricbus.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_backtraking/5209_mincost.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_graph/1491_wonjae.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_graph/2819_board.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_graph/3347_olympics.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_graph/5247_calculation.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_graph/5248_group.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_graph/5521_birthday.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/05_graph/KRUSKAL.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/190327/1486_shelf.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/190327/3074_entry.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/190327/5189_cart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/190402/1244_prize_money.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Application/190403/1868_poping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="78" column="28" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
