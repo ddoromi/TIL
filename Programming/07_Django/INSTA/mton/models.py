@@ -21,6 +21,8 @@ class Hotel(models.Model):
             cls.objects.create(name=faker.company())
 
 
+### Student 1 : N
+
 class Student(models.Model):
     name = models.CharField(max_length=30)
 
