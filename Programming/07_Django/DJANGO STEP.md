@@ -115,3 +115,12 @@ def <function_name>(request):
 
 
 
+
+
+
+
+pip freeze  => 설치된 프로그램
+
+pip freeze > requirements.txt
+
+pip install -r requirements.txt
