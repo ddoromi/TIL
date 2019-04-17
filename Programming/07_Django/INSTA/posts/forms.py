@@ -1,5 +1,5 @@
 from django import forms
-from .models import Post, Image
+from .models import Post, Image, Comment
 
 
 class PostModelForm(forms.ModelForm):
@@ -16,3 +16,8 @@ class ImageModelForm(forms.ModelForm):
             'file': forms.FileInput(attrs={'multiple': True})
         }
 
+
+class CommentModelForm(forms.ModelForm):
+    class Meta:
+        model = Comment
+        fields = ['content', ]

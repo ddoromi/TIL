@@ -20,10 +20,17 @@
     {% else %}
         <img src="http://picsum.photos/600/?random" alt="random-img" class="card-img-top">
     {% endif %}
+
     <div class="card-body">
         <p class="card-text">{{ post.content }}</p>
-        <a href="{% url 'posts:update_post' post.id %}" class="btn btn-warning">수정</a>
+        <hr>
+        <p>by {{ post.user.username }}</p>
+        {% if user.id == post.user.id %}
+            <a href="{% url 'posts:update_post' post.id %}" class="btn btn-warning">수정</a>
+        {% endif %}
     </div>
+
+
 </div>
 
 

@@ -1,8 +1,8 @@
 from django.shortcuts import render,redirect, get_object_or_404
 from django.views.decorators.http import require_http_methods
 from django.contrib.auth.decorators import login_required
-from .models import Post, Image
-from .forms import PostModelForm, ImageModelForm
+from .models import Post, Image, Comment
+from .forms import PostModelForm, ImageModelForm, CommentModelForm
 
 
 @login_required
@@ -43,12 +43,29 @@ def post_list(request):
 @require_http_methods(['GET', 'POST'])
 def update_post(request, post_id):
     post = get_object_or_404(Post, id=post_id)
-    if request.method == 'POST':
-        post_form = PostModelForm(request.POST, instance=post)
-        if post_form.is_valid():
-            post_form.save()
-            return redirect('posts:post_list')
+    if post.user == request.user:
+        if request.method == 'POST':
+            post_form = PostModelForm(request.POST, instance=post)
+            if post_form.is_valid():
+                post_form.save()
+                return redirect('posts:post_list')
+        else:
+            post_form = PostModelForm(instance=post)
+        return render(request, 'posts/form.html', {'post_form': post_form})
     else:
-        post_form = PostModelForm(instance=post)
-    return render(request, 'posts/form.html', {'post_form': post_form})
+        return redirect('posts:post_list')
 
+
+@login_required
+@require_http_methods(['POST'])
+def create_comment(request, post_id):
+    post = get_object_or_404(Post, id=post_id)
+    comment_form = CommentModelForm(request.POST)
+    if comment_form.is_valid():
+        comment = comment_form.save(commit=False)
+        comment.user = request.user
+        comment.post = post
+        comment.save()
+        return redirect('posts:post_list')
+    # TODO else:
+    return render(request, 'posts/comment_form.html', {'comment_form': comment_form})
