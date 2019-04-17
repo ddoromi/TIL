@@ -14,7 +14,9 @@ def create_post(request):
         post_form = PostModelForm(request.POST)
         # data 검증
         if post_form.is_valid():
-            post = post_form.save()
+            post = post_form.save(commit=False)
+            post.user = request.user
+            post.save()
             for image in request.FILES.getlist('file'):
                 request.FILES['file'] = image
                 image_form = ImageModelForm(files=request.FILES)
