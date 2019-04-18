@@ -10,9 +10,11 @@ colorama==0.4.1
 decorator==4.4.0
 defusedxml==0.5.0
 Django==2.1.7
+django-appconf==1.0.3
 django-bootstrap4==0.0.8
 django-extensions==2.1.6
 django-image==0.1.0
+django-imagekit==4.0.2
 docopt==0.6.2
 entrypoints==0.3
 Faker==1.0.4
