@@ -27,6 +27,4 @@ for test_case in range(1, T + 1):
                 criminal.append([XY[ii][0], XY[ii][1]])
                 visit[XY[ii][0]][XY[ii][1]] = visit[X][Y] + 1
                 cnt += 1
-
-
     print('#{} {}'.format(test_case, cnt))

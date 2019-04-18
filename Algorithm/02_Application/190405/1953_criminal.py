@@ -10,7 +10,9 @@ for test_case in range(1, T + 1):
         MAP.append(list(map(int, input().split())))
     possible = [[1, 2, 5, 6], [1, 2, 4, 7], [1, 3, 4, 5], [1, 3, 6, 7]]
     pipe = [[], [0, 1, 2, 3], [0, 1], [2, 3], [0, 3], [1, 3], [1, 2], [0, 2]]
-    criminal, distance = deque([[R, C]]), deque([1])
+    criminal = deque([[R, C]])
+    distance = deque()
+    distance.append(1)
     count = 1
     visit = [[False for _ in range(M)] for _ in range(N)]
     while criminal:

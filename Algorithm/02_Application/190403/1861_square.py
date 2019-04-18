@@ -30,4 +30,4 @@ for test_case in range(1, T + 1):
                 room_number, Max = square[i][j], count
     print('#{} {} {}'.format(test_case, room_number, Max))
 
-
+s
