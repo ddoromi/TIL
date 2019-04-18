@@ -1,0 +1,35 @@
+{% extends 'board/base.html' %}
+
+{% block body %}
+    <h1>{{ posting.title }}</h1>
+    <p>
+        {{ posting.content }}
+    </p>
+    <hr>
+    <a href="{% url 'board:posting_list' %}"><button>List</button></a>
+    <a href="{% url 'board:update_posting' posting.id %}"><button>Edit</button></a>
+    <form action="{% url 'board:delete_posting' posting.id %}" method="POST">
+        {% csrf_token %}
+        <a href="{% url 'board:delete_posting' posting.id %}"><button onclick="return confirm('진짜 지울거야?')">Delete</button></a>
+    </form>
+    <hr>
+    <form action="{% url 'board:create_comment' posting.id %}" method="POST">
+        {% csrf_token %}
+        <label for="comment"></label>
+        <input name="comment" type="text" id="comment">
+        <button type="submit">댓글 쓰기</button>
+    </form>
+    <section>
+    {% if posting.comment_set %}
+        <ul>
+            {% for comment in comments %}
+                <p>{{ comment.content }}</p>
+                <form action="{% url 'board:delete_comment' posting.id comment.id %}" method="post">
+                {% csrf_token %}
+                    <button type="submit">댓글 삭제</button>
+                </form>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    </section>
+{% endblock %}

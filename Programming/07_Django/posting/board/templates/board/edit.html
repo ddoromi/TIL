@@ -1,0 +1,18 @@
+{% extends 'board/base.html' %}
+
+{% block body %}
+    <form method="post">
+    {% csrf_token %}
+        <div>
+            <label for="input_title">Title</label>
+            <input name="title" id="input_title" type="text" placeholder="{{ posting.title }}">
+        </div>
+        <div>
+            <label for="input_content">Content</label>
+            <textarea name="content" id="input_content" cols="30" rows="10" placeholder="{{ posting.content }}"></textarea>
+        </div>
+        <div>
+            <button type="submit">EDIT</button>
+        </div>
+    </form>
+{% endblock %}
