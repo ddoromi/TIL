@@ -23,13 +23,33 @@
 
     <div class="card-body">
         <p class="card-text">{{ post.content }}</p>
+        <p class="card-text">
+            {% for comment in post.comment_set.all %}
+                <strong>{{ comment.user.username }}</strong> : {{ comment.content }}
+                <br>
+            {% empty %}
+                댓글이 없습니다. 첫번째 댓글을 달아주세요.
+            {% endfor %}
+        </p>
         <hr>
         <p>by {{ post.user.username }}</p>
         {% if user.id == post.user.id %}
             <a href="{% url 'posts:update_post' post.id %}" class="btn btn-warning">수정</a>
         {% endif %}
-    </div>
+        <div class="card-footer">
+            <form action="{% url "posts:create_comment" post.id %}" method="post">
+                {% csrf_token %}
+                {{ comment_form.content }}
+                <button type="submit" class="btn btn-primary">댓글 달기</button>
+            </form>
+            <form action="{% url "posts:toggle_like" post.id %}" method="post">
+                {% csrf_token %}
+                ♥ : {{ post.like_users.all.count }}
+                <button type="submit" class="btn btn-primary">좋아용!</button>
+            </form>
 
+        </div>
+    </div>
 
 </div>
 

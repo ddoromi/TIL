@@ -4,7 +4,7 @@
     <h1>Post</h1>
     <section class="card-columns">
         {% for post in posts %}
-            {% include 'posts/_post.html' with post=post %}
+            {% include 'posts/_post.html' with post=post comments=comments%}
         {% endfor %}
     </section>
 {% endblock %}

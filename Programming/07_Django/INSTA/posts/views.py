@@ -36,7 +36,8 @@ def create_post(request):
 @require_http_methods(['GET'])
 def post_list(request):
     posts = Post.objects.all()
-    return render(request, 'posts/list.html', {'posts': posts})
+    comment_form = CommentModelForm()
+    return render(request, 'posts/list.html', {'posts': posts, 'comment_form':comment_form})
 
 
 @login_required
@@ -67,5 +68,18 @@ def create_comment(request, post_id):
         comment.post = post
         comment.save()
         return redirect('posts:post_list')
-    # TODO else:
-    return render(request, 'posts/comment_form.html', {'comment_form': comment_form})
+    return render(request, 'posts/form.html', {'comment_form': comment_form, 'post':post})
+
+
+@login_required
+@require_http_methods(['POST'])
+def toggle_like(request, post_id):
+    user = request.user
+    post = get_object_or_404(Post, id=post_id)
+    if user in post.like_users.all():  # 찾으면 [value], 없으면 [] // exit() => True or False
+        post.like_users.remove(user)
+    # if post.like_users.filter(id=user.id).exit():  # 찾으면 [value], 없으면 [] // exit() => True or False
+    #     post.like_users.remove(user)
+    else:
+        post.like_users.add(user)
+    return redirect('posts:post_list')
