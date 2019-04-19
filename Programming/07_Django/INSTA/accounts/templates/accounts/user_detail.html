@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block body %}
+    <div class="row">
+        <div class="col">
+            <img src="" alt="{{ user_info.username }}-profile-picture">
+        </div>
+    <div class="col-8">
+        <h1>{{ user_info.username }}</h1>
+        <div>
+            {% if user_info.followings.all %}
+                <ul>
+                {% for user in user_info.followings.all %}
+                    <li>{{ user.username }}</li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+    </div>
+        <div class="col-8">
+            <h1>{{ user_info.username }}</h1>
+            <div>
+                {% if request.user != user_info %}
+                    {% if  user_info in request.user.followings.all %}
+                        <form action="{% url 'accounts:toggle_follow'  user_info.username %}" method="post">
+                            {% csrf_token %}
+                            <button class='btn btn-danger' type="submit">Unfollow</button>
+                        </form>
+                    {% else %}
+                        <form action="{% url 'accounts:toggle_follow'  user_info.username %}" method="post">
+                            {% csrf_token %}
+                            <button class='btn btn-primary' type="submit">Follow</button>
+                        </form>
+                    {% endif %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <div class="card-columns">
+        {% for post in user_info.post_set.all %}
+            {% include 'posts/_post.html' with post=post comment_form=comment_form %}
+        {% endfor %}
+    </div>
+{% endblock %}

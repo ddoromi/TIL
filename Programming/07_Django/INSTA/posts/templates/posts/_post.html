@@ -32,7 +32,7 @@
             {% endfor %}
         </p>
         <hr>
-        <p>by {{ post.user.username }}</p>
+        by <a href="{% url 'accounts:user_detail' post.user.username %}">{{ post.user.username }}</a>
         {% if user.id == post.user.id %}
             <a href="{% url 'posts:update_post' post.id %}" class="btn btn-warning">수정</a>
         {% endif %}
