@@ -5,7 +5,7 @@ from .forms import CustomAuthenticationForm, CustomUserCreationForm
 from .models import User
 from posts.forms import CommentModelForm
 from django.contrib.auth.decorators import login_required
-from IPython import embed
+from django.contrib import messages
 # from django.contrib.auth import get_user_model
 
 
@@ -29,7 +29,9 @@ def log_in(request):
     if request.method == 'POST':
         form = CustomAuthenticationForm(request, request.POST)
         if form.is_valid():
+            user = form.get_user()
             login(request, form.get_user())
+            messages.add_message(request, messages.SUCCESS, f'{user.username}님 안녕하세요 :)')
             return redirect(request.GET.get('next') or 'posts:post_list')
     else:
         form = CustomAuthenticationForm()
@@ -38,6 +40,7 @@ def log_in(request):
 
 def log_out(request):
     logout(request)
+    messages.add_message(request, messages.SUCCESS, '또 놀러오세요 :)')
     return redirect('posts:post_list')
 
 
