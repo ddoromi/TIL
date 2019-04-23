@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<script>
+    /*
+        Upper Camel Case = PostModelForm (시작과 띄어쓰기에서 대문자)
+        lower Camel Case = firstName, lastName (띄어쓰기에서 대문자)
+        snake Case = this_is_python_variable (언더바 사용)
+     */
+    const firstName = 'Happy';
+    const lastName = 'Hacking';
+    const fullName = firstName + lastName;
+    document.write('<h1>' + fullName + '!!' + '</h1>');
+    document.write(`<h1>${fullName}!!</h1>`) //Template String
+</script>
+</body>
+</html>

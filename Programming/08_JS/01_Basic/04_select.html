@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<script>
+    document.write('<h1>Happy Hacking!</h1>');                  // C
+    document.querySelector('h1').innerText;                     // R
+    document.querySelector('h1').innerText = 'Goodbye World!';  // U
+    document.querySelector('h1').innerText = null;              // D
+
+    document.write('<h1>Happy Hacking!</h1>');
+    // 1. h1 태그를 선택한 뒤, header 라는 상수에 할당한다.
+    const header = document.querySelector('h1');
+
+    // 2. 브라우저 콘솔에 header 안의 내용을 출력한다.
+    console.log(header.innerText);
+
+    // 3. header 안의 내용을 'Happy Hacking!' 으로 변경한다.
+    header.innerText = 'Happy Hacking!';
+    console.log(header.innerText);
+</script>
+</body>
+</html>
