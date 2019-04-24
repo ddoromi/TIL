@@ -53,4 +53,4 @@ function sayHello (name) {
 sayHello = name => `hi, ${name}`;
 
 // 익명 함수 실행
-(num => num ** 2)(4)
+(num => num ** 2)(4);

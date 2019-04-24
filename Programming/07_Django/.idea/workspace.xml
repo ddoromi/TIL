@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f35c78-c4a9-48a7-aa99-c95d95bf392b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algorithm/02_Application/05_graph/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/02_Application/05_graph/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_JS/02_eventListener/GiphySearchEngine/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_JS/02_eventListener/GiphySearchEngine/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_JS/02_eventListener/GiphySearchEngine/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/07_Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/07_Django.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review_prj/board/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/review_prj/board/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review_prj/board/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/review_prj/board/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/INSTA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/INSTA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_JS/01_Basic/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/../08_JS/01_Basic/function.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/review_prj/board/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="168">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/INSTA/accounts/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#86#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/review_prj/board/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="546">
               <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
@@ -89,12 +102,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="07_Django" type="b2602c69:ProjectViewProjectNode" />
               <item name="07_Django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="07_Django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="07_Django" type="462c0819:PsiDirectoryNode" />
+              <item name="INSTA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="07_Django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="07_Django" type="462c0819:PsiDirectoryNode" />
+              <item name="INSTA" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="07_Django" type="b2602c69:ProjectViewProjectNode" />
@@ -117,14 +142,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/review_prj" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/INSTA" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -218,16 +242,18 @@
       <workItem from="1554768261263" duration="716000" />
       <workItem from="1554768998147" duration="49000" />
       <workItem from="1554769056950" duration="781000" />
+      <workItem from="1556081981339" duration="819000" />
+      <workItem from="1556094641818" duration="15000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2461000" />
+    <option name="totallyTimeSpent" value="3295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12393617" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20971185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -241,7 +267,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297414" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005319" side_tool="true" weight="0.32831" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4994681" visible="true" weight="0.32831" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4994681" visible="true" weight="0.32790446" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -279,6 +305,13 @@
     <entry file="file://$PROJECT_DIR$/../../Algorithm/02_Application/190405/new_1953.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/review_prj/board/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/review_prj/board/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -291,7 +324,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/review_prj/board/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="546">
           <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
@@ -299,10 +332,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/review_prj/board/models.py">
+    <entry file="file://$PROJECT_DIR$/INSTA/accounts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="483">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#86#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
