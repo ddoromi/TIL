@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0bef685-9ece-431d-ad0a-e5b06ede736c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02_eventListener/GiphySearchEngine/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_eventListener/GiphySearchEngine/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_eventListener/GiphySearchEngine/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_webAPI/Todo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_webAPI/Todo/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_webAPI/XHR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_webAPI/fetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_Django/INSTA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07_Django/INSTA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_Django/INSTA/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../07_Django/INSTA/accounts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Basic/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_Basic/function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_Basic/10_condition.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_Basic/10_condition.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,22 +23,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_eventListener/GiphySearchEngine/index.html">
+        <entry file="file://$PROJECT_DIR$/03_webAPI/Todo/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+            <state relative-caret-position="7">
+              <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03_webAPI/fetch.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-168">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02_eventListener/GiphySearchEngine/main.js">
+        <entry file="file://$PROJECT_DIR$/03_webAPI/XHR.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="85" column="44" lean-forward="true" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -45,8 +54,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -72,7 +81,6 @@
         <option value="$PROJECT_DIR$/01_Basic/arrayLoop.js" />
         <option value="$PROJECT_DIR$/01_Basic/json.js" />
         <option value="$PROJECT_DIR$/01_Basic/objects.js" />
-        <option value="$PROJECT_DIR$/01_Basic/10_condition.html" />
         <option value="$PROJECT_DIR$/01_Basic/workshop.js" />
         <option value="$PROJECT_DIR$/01_Basic/04_select.html" />
         <option value="$PROJECT_DIR$/01_Basic/function.js" />
@@ -82,12 +90,19 @@
         <option value="$PROJECT_DIR$/02_eventListener/GiphySearchEngine/main.css" />
         <option value="$PROJECT_DIR$/02_eventListener/GiphySearchEngine/index.html" />
         <option value="$PROJECT_DIR$/02_eventListener/GiphySearchEngine/main.js" />
+        <option value="$PROJECT_DIR$/03_webIPI/fetch.js" />
+        <option value="$PROJECT_DIR$/03_webIPI/XHR.js" />
+        <option value="$PROJECT_DIR$/03_webAPI/XHR.js" />
+        <option value="$PROJECT_DIR$/03_webAPI/fetch.js" />
+        <option value="$PROJECT_DIR$/01_Basic/10_condition.html" />
+        <option value="$PROJECT_DIR$/03_webAPI/Todo/index.html" />
+        <option value="$PROJECT_DIR$/03_webAPI/Todo/main.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1074" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -98,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,14 +129,18 @@
             <path>
               <item name="08_JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="08_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="02_eventListener" type="462c0819:PsiDirectoryNode" />
-              <item name="GiphySearchEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="03_webAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="08_JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="08_JS" type="462c0819:PsiDirectoryNode" />
+              <item name="03_webAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="Todo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,18 +197,19 @@
       <workItem from="1556065658688" duration="595000" />
       <workItem from="1556068429602" duration="1912000" />
       <workItem from="1556070382022" duration="11000" />
+      <workItem from="1556150222824" duration="17744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32513000" />
+    <option name="totallyTimeSpent" value="50257000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1074" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498366" weight="0.25882354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49618322" visible="true" weight="0.20427808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.501634" side_tool="true" weight="0.25767544" />
+      <window_info id="Favorites" order="2" sideWeight="0.5038168" side_tool="true" weight="0.14812863" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28103837" />
@@ -200,7 +221,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.27088037" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.27088037" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -335,13 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_Basic/10_condition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01_Basic/callback.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
@@ -382,18 +396,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02_eventListener/GiphySearchEngine/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+        <state relative-caret-position="432">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Basic/10_condition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02_eventListener/GiphySearchEngine/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="85" column="44" lean-forward="true" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
+        <state relative-caret-position="336">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_webAPI/Todo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_webAPI/Todo/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_webAPI/fetch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_webAPI/XHR.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>

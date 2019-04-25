@@ -11,6 +11,7 @@ from django.conf import settings
 5. AUTH_USER_MODEL = 'accounts.User'
 """
 
+
 class User(AbstractUser):
     followings = models.ManyToManyField(
         settings.AUTH_USER_MODEL,

@@ -86,7 +86,7 @@ def create_comment(request, post_id):
         comment.post = post
         comment.save()
         return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
-    return render(request, 'posts/form.html', {'comment_form': comment_form, 'post':post})
+    return render(request, 'posts/form.html', {'comment_form': comment_form, 'post': post})
 
 
 @login_required
@@ -107,4 +107,4 @@ def toggle_like(request, post_id):
 def tag_posts_list(request, tag_name):
     tag = get_object_or_404(HashTag, content=tag_name)
     posts = tag.posts.all()
-    return render(request, 'posts/list.html', {'posts':posts})
+    return render(request, 'posts/list.html', {'posts': posts})
