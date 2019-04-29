@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0bef685-9ece-431d-ad0a-e5b06ede736c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03_webAPI/Todo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_webAPI/Todo/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_webAPI/XHR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_webAPI/fetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_blockingNonblocking/setTimeout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_blockingNonblocking/sleep.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../07_Django/INSTA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07_Django/INSTA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_Django/INSTA/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../07_Django/INSTA/accounts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Basic/10_condition.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_Basic/10_condition.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,29 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03_webAPI/Todo/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03_webAPI/fetch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03_webAPI/XHR.js">
+        <entry file="file://$PROJECT_DIR$/05_blockingNonblocking/setTimeout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="126">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -57,6 +35,7 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -97,6 +76,13 @@
         <option value="$PROJECT_DIR$/01_Basic/10_condition.html" />
         <option value="$PROJECT_DIR$/03_webAPI/Todo/index.html" />
         <option value="$PROJECT_DIR$/03_webAPI/Todo/main.js" />
+        <option value="$PROJECT_DIR$/04_helperMethods/sample.js" />
+        <option value="$PROJECT_DIR$/04_helperMethods/forEach.js" />
+        <option value="$PROJECT_DIR$/04_helperMethods/map.js" />
+        <option value="$PROJECT_DIR$/04_helperMethods/filter.js" />
+        <option value="$PROJECT_DIR$/04_helperMethods/find.js" />
+        <option value="$PROJECT_DIR$/05_blockingNonblocking/sleep.py" />
+        <option value="$PROJECT_DIR$/05_blockingNonblocking/setTimeout.js" />
       </list>
     </option>
   </component>
@@ -124,18 +110,7 @@
             <path>
               <item name="08_JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="08_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="02_eventListener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="08_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="08_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="03_webAPI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="08_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="08_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="03_webAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="Todo" type="462c0819:PsiDirectoryNode" />
+              <item name="05_blockingNonblocking" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,11 +122,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../KWON-SEONG-RYEONG/workshops" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../07_Django/INSTA" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,18 +140,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.main.js">
-    <configuration name="callback.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="callback.js" working-dir="$PROJECT_DIR$/01_Basic">
+  <component name="RunManager" selected="Python.sleep">
+    <configuration name="filter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="filter.js" working-dir="$PROJECT_DIR$/04_helperMethods">
+      <method v="2" />
+    </configuration>
+    <configuration name="find.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="find.js" working-dir="$PROJECT_DIR$/04_helperMethods">
       <method v="2" />
     </configuration>
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/02_eventListener/GiphySearchEngine">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.main.js" />
-      </list>
-    </recent_temporary>
+    <configuration name="map.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="map.js" working-dir="$PROJECT_DIR$/04_helperMethods">
+      <method v="2" />
+    </configuration>
+    <configuration name="sleep" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="08_JS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_blockingNonblocking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_blockingNonblocking/sleep.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -198,21 +196,25 @@
       <workItem from="1556068429602" duration="1912000" />
       <workItem from="1556070382022" duration="11000" />
       <workItem from="1556150222824" duration="17744000" />
+      <workItem from="1556237417009" duration="4148000" />
+      <workItem from="1556241854807" duration="320000" />
+      <workItem from="1556242189998" duration="609000" />
+      <workItem from="1556248828175" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50257000" />
+    <option name="totallyTimeSpent" value="55352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49618322" visible="true" weight="0.20427808" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49618322" visible="true" weight="0.2138158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5038168" side_tool="true" weight="0.14812863" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28103837" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27821228" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -221,7 +223,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.27088037" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.36732456" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -425,24 +427,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_webAPI/Todo/main.js">
+    <entry file="file://$PROJECT_DIR$/03_webAPI/XHR.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        <state relative-caret-position="40">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03_webAPI/fetch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
+        <state relative-caret-position="24">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_webAPI/XHR.js">
+    <entry file="file://$PROJECT_DIR$/03_webAPI/Todo/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="24">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_helperMethods/sample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_helperMethods/forEach.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_helperMethods/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_helperMethods/filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_helperMethods/find.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_blockingNonblocking/sleep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_blockingNonblocking/setTimeout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
