@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="result-area">
+
+</div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+    // const getDogAndush = async () => {
+    //     axios.get('https://dog.ceo/api/breeds/image/random')
+    //         .then(response => response.data)
+    //         .then(data => {
+    //             const img = document.createElement('img');
+    //             img.src = data.message;
+    //             img.alt = 'DOG';
+    //             return img
+    //         })
+    //         .then(imgTag => document.querySelector('#result-area').append(imgTag))
+    //         .catch(err => console.log(err))
+    // };
+    // await 는 async가 달린 함수 안에서만 사용 가능함. && 기다려야 하는 부분만 따로 나눠서 달아줘야 함.
+    const getDogAndPush = async () => {
+        const response = await axios.get('https://dog.ceo/api/breeds/image/random');
+        const data = response.data;
+        const imgTag = document.createElement('img');
+        imgTag.src = data.message;
+        imgTag.alt = 'DOG';
+        document.querySelector('#result-area').appendChild(imgTag)
+    };
+    getDogAndPush()
+</script>
+</body>
+</html>
