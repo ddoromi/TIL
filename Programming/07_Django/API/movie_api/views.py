@@ -15,7 +15,7 @@ def movie_list(request):
 @api_view(['GET', 'PATCH', 'DELETE'])
 def one_movie(request, movie_id):
     movie = get_object_or_404(Movie, id=movie_id)
-    if request.method =='GET':
+    if request.method == 'GET':
         serializer = MovieSerializer(movie)
         return Response(serializer.data)
     elif request.method == 'PATCH':
@@ -26,6 +26,8 @@ def one_movie(request, movie_id):
     else:
         movie.delete()
         return Response({'message': 'Movie is deleted!'})
+
+
 @api_view(['POST'])
 def create_movie(request):
     serializer = MovieSerializer(data=request.data)

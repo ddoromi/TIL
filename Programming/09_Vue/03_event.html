@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .safe-spot{
+            color: white;
+            background-color: aquamarine;
+            height: 10rem;
+            padding: 2rem;
+        }
+        .dead-spot{
+            color: white;
+            background-color: red;
+            height: 4rem;
+            margin: 2rem;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+
+    <button v-on:click="counter++">Up</button>
+    <button v-on:click="down($event, 3)">Down</button>
+    <p>{{ counter * 2 > 10 ? 'n>10' : 'n<10' }}</p>
+
+    <ul>
+        <li v-for="number in numbers.map(num => num * 2)">
+            {{ number }}
+        </li>
+    </ul>
+
+    <div>
+        <input type="text" v-on:keyup.e="alertMe">
+    </div>
+
+    <table>
+        <tr>
+            <th>X coord</th>
+            <th>Y coord</th>
+        </tr>
+        <tr>
+            <td>{{ x }}</td>
+            <td>{{ y }}</td>
+        </tr>
+    </table>
+    <div class="safe-spot" v-on:mousemove="getMouseCoord">
+        Safe Zone
+        <div class="dead-spot" v-on:mouseover="stop">
+            Danger
+        </div>
+    </div>
+</div>
+<script src="./vue.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            counter: 0,
+            x: 0,
+            y: 0,
+            numbers: [1, 2, 3, 4, 5]
+        },
+        methods: {
+            up(e) { this.counter += e.clientX },
+            down(e, n) { this.counter -= n * e.clientY },
+            getMouseCoord(e) {
+                this.x = e.clientX;
+                this.y = e.clientY;
+            },
+            stop(e) {
+                alert('You Died!')
+            },
+            alertMe(e) {
+                alert('Hey')
+            }
+        }
+    })
+</script>
+</body>
+</html>

@@ -3,6 +3,7 @@ from faker import Faker
 
 faker = Faker()
 
+
 class Movie(models.Model):
     title = models.CharField(max_length=100)
 
@@ -10,5 +11,5 @@ class Movie(models.Model):
     def dummy(cls, n):
         for _ in range(n):
             cls.objects.create(
-                title = faker.catch_phrase()
+                title=faker.catch_phrase()
             )
