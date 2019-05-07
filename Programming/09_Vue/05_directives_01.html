@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<!--    if 문은 조건을 충족 할 경우에만 나옴, 충족하지 않을 경우 태그도 나오지 않음   -->
+<!--    show 문은 보일 지 말 지 판단 -->
+    <h2 v-if="eng">Hi</h2>
+    <h2 v-show="kor">안녕</h2>
+    {{ message }}
+    {{ status ? 'Good' : 'Bad' }}
+    {{ message | capitalize }}
+<!--    가상의 node 마크업에 나오지 않음 => v-if만 사용가능   -->
+    <template v-if="status">
+        <h1>Good</h1>
+    </template>
+    <p v-if="type === 'A'">A</p>
+    <p v-else-if="type === 'B'">B</p>
+    <p v-else>C</p>
+<!--    filter 는 파이프 기준으로 인자로 넘어가서 함수를 실행할 수 있음     -->
+</div>
+<script src="./vue.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            message: 'hi',
+            type: 'A',
+            status: true,
+            eng: true,
+            kor: true
+        },
+        methods: {},
+        filters: {
+            capitalize(value) {
+                if(!value) return '';
+                value = value.toString();
+                return value.charAt(0).toUpperCase() + value.slice(1)
+            }
+        }
+    })
+</script>
+</body>
+</html>
