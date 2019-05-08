@@ -21,4 +21,4 @@ const avengers = [
     {name: 'Thor'}
 ];
 const a = avengers.find(avenger => avenger.name === 'Tony Stark');
-console.log(a.name);
+console.log(a);

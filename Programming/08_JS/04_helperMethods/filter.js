@@ -39,3 +39,21 @@ const adminUsers = users
     .filter(user => user.admin)
     .map(user => user.id);
 console.log(adminUsers);
+
+const name = "장재영";
+
+const exampleObject = {
+    name : " 권성령 ",
+    "favorite foods" : {
+        Korean : "Chicken Feet",
+        Japanese : "Susi",
+        Chinese : "Japchae bap",
+    },
+    intro : function () {
+        return `안녕~ ${this.name}이라구 해~`
+    },
+    intro2 : () => {
+        return `안녕~ ${this.name}이라구 해~`
+    }
+};
+console.log(exampleObject.intro2());

@@ -51,3 +51,15 @@ const muler = (number, sum=1) => {
 };
 console.log(numbersEach([1, 2, 3, 4, 5], muler));
 console.log(numbersEach([1, 2, 3, 4, 5], (number, sum=1) => sum * number));
+
+function makeArticle (id, title, content) {
+    return {
+        id,
+        title,
+        content,
+        makeOne () {
+            return `${this.id} 번 글: ${this.title} => ${this.content}`
+        },
+    }
+}
+console.log(makeArticle(title = "첫번째글", content="안녕하세요. 반갑습니다.", id=1 ).makeOne());

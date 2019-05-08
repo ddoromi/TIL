@@ -6,7 +6,7 @@ function concat(str1, str2) {
 concat = (str1, str2) => `${str1} - ${str2}`;
 
 function checkLongStr(string) {
-    if (string.length > 10) {
+    if(string.length > 10) {
         return true
     }
     else {
